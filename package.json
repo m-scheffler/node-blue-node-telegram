@@ -1,0 +1,16 @@
+{
+  "name": "node-blue-node-telegram",
+  "version": "1.0.1",
+  "description": "This package provides telegram nodes for Node-BLUE.",
+  "homepage": "https://github.com/Homegear/node-blue-node-telegram",
+  "node-blue": {
+    "maxThreadCounts": {
+      "telegram-bot": 1,
+      "telegram"
+    },
+    "nodes": {
+      "telegram-bot": "telegram-bot.s.php",
+      "telegram": "telegram.php"
+    }
+  }
+}
